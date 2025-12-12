@@ -33,30 +33,61 @@
 
 <section class="section platform" id="platform">
     <div class="container">
-        <div class="platform__grid">
-            <div class="platform__info">
-                <h2 class="section-title reveal-hidden">Технологии нового поколения</h2>
+        <div class="section-header">
+            <div class="header-content">
+                <h2 class="section-title reveal-hidden">Технологии в действии</h2>
                 <p class="section-desc reveal-hidden">
-                    Воплотите мечты в реальность с помощью инфраструктуры корпоративного уровня.
-                    Наши решения позволяют запустить проект за считанные минуты.
+                    Наглядная демонстрация возможностей. Интуитивный интерфейс и мощная аналитика в одном окне.
                 </p>
-                <ul class="platform__list reveal-hidden">
-                    <li><i data-lucide="check-circle-2"></i> <span>Проверенные методологии</span></li>
-                    <li><i data-lucide="zap"></i> <span>Быстрый и лёгкий старт</span></li>
-                    <li><i data-lucide="shield-check"></i> <span>Экспертная поддержка 24/7</span></li>
-                </ul>
             </div>
-            <div class="platform__visual">
-                <div class="platform__card reveal-card">
-                    <div class="platform__icon-box"><i data-lucide="bar-chart-2"></i></div>
-                    <h3>Аналитика</h3>
-                    <p>Глубокий анализ данных</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item gallery-item--main reveal-card">
+                <div class="gallery-img-wrapper">
+                    <img src="/img/one.jpg"
+                        alt="Analytics Dashboard" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Дашборд аналитики</h3>
+                    </div>
                 </div>
-                <div class="platform__card platform__card--accent reveal-card">
-                    <div class="platform__icon-box"><i data-lucide="bot"></i></div>
-                    <h3>AI Ассистент</h3>
-                    <p>Автоматизация рутины</p>
+            </div>
+
+            <div class="gallery-col">
+                <div class="gallery-item reveal-card">
+                    <div class="gallery-img-wrapper">
+                        <img src="/img/two.jpg"
+                            alt="Mobile Interface" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Мобильная версия</h3>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="gallery-item reveal-card">
+                    <div class="gallery-img-wrapper">
+                        <img src="/img/three.jpg"
+                            alt="Team Collaboration" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Командная работа</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="platform__features reveal-hidden">
+            <div class="feature-item">
+                <i data-lucide="zap"></i>
+                <span>Мгновенная обработка данных</span>
+            </div>
+            <div class="feature-item">
+                <i data-lucide="lock"></i>
+                <span>Защита уровня Enterprise</span>
+            </div>
+            <div class="feature-item">
+                <i data-lucide="layers"></i>
+                <span>Полная интеграция</span>
             </div>
         </div>
     </div>
@@ -100,29 +131,52 @@
     <div class="container">
         <div class="section-header">
             <h2 class="section-title reveal-hidden">Последние инсайты</h2>
-            <a href="#" class="btn-link reveal-hidden">Все статьи <i data-lucide="arrow-right"></i></a>
+            <a href="#contact" class="btn-link reveal-hidden">Все статьи <i data-lucide="arrow-right"></i></a>
         </div>
 
         <div class="blog__grid">
             <article class="blog-card reveal-card">
-                <div class="blog-card__image">
-                    <div class="img-placeholder"></div>
+                <div class="blog-card__image-wrapper">
+                    <img src="/img/four.jpg"
+                        alt="AI Consulting" loading="lazy">
                 </div>
                 <div class="blog-card__content">
-                    <span class="blog-card__tag">Инновации</span>
+                    <div class="blog-card__meta">
+                        <span class="blog-card__tag">Инновации</span>
+                        <span class="blog-card__date">12 Дек 2025</span>
+                    </div>
                     <h3 class="blog-card__title">Как AI меняет рынок консалтинга в 2025 году</h3>
-                    <a href="#" class="blog-card__link">Читать далее</a>
+                    <a href="#conatct" class="blog-card__link">Читать далее</a>
                 </div>
             </article>
 
             <article class="blog-card reveal-card">
-                <div class="blog-card__image">
-                    <div class="img-placeholder" style="background: #cbd5e1;"></div>
+                <div class="blog-card__image-wrapper">
+                    <img src="/img/five.jpg"
+                        alt="Career Growth" loading="lazy">
                 </div>
                 <div class="blog-card__content">
-                    <span class="blog-card__tag">Карьера</span>
+                    <div class="blog-card__meta">
+                        <span class="blog-card__tag">Карьера</span>
+                        <span class="blog-card__date">10 Дек 2025</span>
+                    </div>
                     <h3 class="blog-card__title">5 навыков для успешного старта в цифровой экономике</h3>
-                    <a href="#" class="blog-card__link">Читать далее</a>
+                    <a href="#contact" class="blog-card__link">Читать далее</a>
+                </div>
+            </article>
+
+            <article class="blog-card reveal-card">
+                <div class="blog-card__image-wrapper">
+                    <img src="/img/six.jpg"
+                        alt="AI Agents" loading="lazy">
+                </div>
+                <div class="blog-card__content">
+                    <div class="blog-card__meta">
+                        <span class="blog-card__tag">Технологии</span>
+                        <span class="blog-card__date">08 Дек 2025</span>
+                    </div>
+                    <h3 class="blog-card__title">Автономные AI-агенты: будущее автоматизации</h3>
+                    <a href="#contact" class="blog-card__link">Читать далее</a>
                 </div>
             </article>
         </div>
