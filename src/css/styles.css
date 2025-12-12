@@ -974,3 +974,83 @@ img {
         justify-content: space-between;
     }
 }
+/* =========================================
+   12. LEGAL PAGES STYLES
+   ========================================= */
+.pages {
+    padding-top: 120px;
+    /* Отступ от хедера */
+    padding-bottom: 80px;
+}
+
+.pages-content {
+    max-width: 800px;
+    /* Ограничиваем ширину для удобства чтения */
+    margin: 0 auto;
+}
+
+.pages-content h1 {
+    font-family: var(--font-heading);
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    color: var(--color-text-main);
+}
+
+.pages-content h2 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    color: var(--color-text-main);
+}
+
+.pages-content p {
+    font-size: 16px;
+    color: var(--color-text-muted);
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.pages-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 24px;
+}
+
+.pages-content ul li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: var(--color-text-muted);
+}
+
+/* Кастомные буллеты */
+.pages-content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.pages-content strong {
+    color: var(--color-text-main);
+    font-weight: 600;
+}
+
+.pages-content a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.2s;
+}
+
+.pages-content a:hover {
+    color: var(--color-primary-dark);
+}
